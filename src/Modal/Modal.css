@@ -1,0 +1,53 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    text-align: center;
+}
+.modal__body{
+    padding: 2rem;
+    width: 400px;
+    border-radius: 5px;
+    background: #fff;
+    height: 200px;
+}
+.modal__text{
+    margin-bottom: 50px;
+    font-size: 18px;
+
+
+}
+.modal__open{
+    position: absolute;
+    right: 0;
+
+    border-radius: 8px;
+    border: none;
+
+    font-size: 16px;
+    color: #fff;
+    background: aqua;
+    padding: 5px;
+    cursor: pointer;
+}
+.modal__open:hover,
+.modal__close:hover,
+.add__todo:hover{
+    background: rgb(4, 221, 221);
+}
+.modal__close,.add__todo{
+    border-radius: 8px;
+    border: none;
+
+    font-size: 16px;
+    color: #fff;
+    background: aqua;
+    padding: 5px;
+    cursor: pointer;
+}
